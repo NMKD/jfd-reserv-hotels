@@ -1,0 +1,31 @@
+{
+    "apiEndpoint": {
+        "url": "http://localhost:8080/api"
+    },
+    "auth": {
+        "signUp": "/auth/signUp",
+        "signIn": "/auth/signInWithPassword",
+        "token": "/auth/token"
+    },
+    "user": {
+        "getUser": "/user/"
+    },
+    "room": {
+        "getRoom": "/room/",
+        "filter": "/room/filter",
+        "reserv": "/room/reserv",
+        "create": "/room/create",
+        "update": "/room/update",
+        "remove": "/room/remove/"
+    },
+    "hotel": {
+        "getHotel": "/hotel/",
+        "create": "/hotel/create"
+    },
+    "order": {
+        "getOrder": "/order/"
+    },
+    "upload": {
+        "image": "/file/upload"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "port": 8080,
+    "mongoUri": "mongodb://localhost:27017/hotel-reservations",
+    "accessSecret": "My secret access token",
+    "refreshSecret": "My refresh secret token"
+}
