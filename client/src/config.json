@@ -1,6 +1,6 @@
 {
     "apiEndpoint": {
-        "url": "http://localhost:8080/api"
+        "url": "http://84.38.182.194/api"
     },
     "auth": {
         "signUp": "/auth/signUp",

@@ -1,6 +1,6 @@
 {
     "port": 8080,
-    "mongoUri": "mongodb://localhost:27017/hotel-reservations",
+    "mongoUri": "mongodb+srv://hemera1369:pHbdcYo8FPmFtoVW@cluster0.56fnqvm.mongodb.net/app?retryWrites=true&w=majority",
     "accessSecret": "My secret access token",
     "refreshSecret": "My refresh secret token"
 }
