@@ -115,11 +115,12 @@ const RoomReserv = ({ data }) => {
     };
 
     const handleClickToReserve = (id) => {
-        if (!userId) {
+        if (!userId || userId === null) {
             toast.error(
                 "Пожалуйста перед бронированием отеля, зарегистрируйтесь"
             );
             navigate(`${ROUTER_PATH.root}${ROUTER_PATH.login}`);
+            return;
         }
 
         if (Date.parse(date.startDate) < Date.parse(getToday())) {
